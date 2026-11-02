@@ -1,0 +1,42 @@
+[
+  {
+    "id": "spacecraft",
+    "name": "Spacecraft (Transit)",
+    "description": "Crew transit vehicle traveling between celestial bodies. High radiation exposure, strong isolation due to distance from Earth, full microgravity, and entirely closed life-support system.",
+    "radiation": 1.2,
+    "isolation": 1.3,
+    "distance": 1.5,
+    "gravity": 1.5,
+    "closedEnv": 1.3
+  },
+  {
+    "id": "iss",
+    "name": "Space Station (ISS)",
+    "description": "The International Space Station in low Earth orbit. Baseline environment for space health monitoring with well-established countermeasure protocols and regular resupply missions.",
+    "radiation": 1.0,
+    "isolation": 1.0,
+    "distance": 1.0,
+    "gravity": 1.3,
+    "closedEnv": 1.1
+  },
+  {
+    "id": "lunar",
+    "name": "Lunar Base",
+    "description": "Surface habitat on the Moon. Higher radiation than LEO due to lack of magnetosphere, moderate isolation with 1.3-second communication delay, partial gravity (1/6 g), and semi-closed environment with potential for local resource utilization.",
+    "radiation": 1.3,
+    "isolation": 1.2,
+    "distance": 1.2,
+    "gravity": 1.2,
+    "closedEnv": 1.0
+  },
+  {
+    "id": "mars",
+    "name": "Mars Base",
+    "description": "Surface habitat on Mars. Highest radiation risk due to thin atmosphere and no magnetosphere, extreme isolation with 4-24 minute communication delays, partial gravity (0.38 g), and closed environment dependent on in-situ resource utilization.",
+    "radiation": 1.5,
+    "isolation": 1.5,
+    "distance": 1.8,
+    "gravity": 1.1,
+    "closedEnv": 1.2
+  }
+]

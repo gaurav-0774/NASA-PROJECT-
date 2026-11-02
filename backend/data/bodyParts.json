@@ -1,0 +1,150 @@
+[
+  {
+    "id": "brain",
+    "name": "Brain & Nervous System",
+    "description": "The central command center of the body, responsible for cognition, emotion regulation, motor control, sensory processing, and autonomic functions. In spaceflight, the brain faces unique challenges from isolation, disrupted circadian rhythms, and radiation exposure that can cross the blood-brain barrier.",
+    "relatedHazards": ["Isolation & Confinement", "Space Radiation"],
+    "linkedIndicators": ["mood", "sleep_hours"],
+    "statusInfo": {
+      "green": "Mood is stable (3-5), sleep is adequate (7-9 hours). Cognitive function and emotional well-being are within healthy parameters. Crew member is engaged, alert, and maintaining positive social interactions.",
+      "yellow": "Mood is declining (2) or sleep is disrupted (4-6 hours or 10-12 hours). Early signs of psychological stress, irritability, or cognitive fatigue. Attention and reaction times may be slightly impaired.",
+      "red": "Mood is critically low (1) or sleep is severely disrupted (<4 hours or >12 hours). Risk of depression, anxiety disorder, or cognitive impairment. Crew member may be withdrawing socially. Immediate psychological support required."
+    },
+    "recommendations": [
+      "Maintain a consistent sleep-wake schedule aligned with mission time",
+      "Use light therapy (blue-enriched light in morning, dim red light before sleep)",
+      "Schedule regular video calls with family and support network on Earth",
+      "Practice mindfulness meditation for 10-15 minutes daily",
+      "Engage in creative activities and personal hobbies during off-duty hours",
+      "Report persistent mood changes to the flight surgeon promptly",
+      "Take scheduled breaks from demanding cognitive tasks",
+      "Maintain a personal journal to process thoughts and emotions"
+    ]
+  },
+  {
+    "id": "heart",
+    "name": "Heart & Cardiovascular System",
+    "description": "The heart pumps blood through the circulatory system, delivering oxygen and nutrients to all tissues. In microgravity, the cardiovascular system undergoes significant remodeling: the heart becomes more spherical, blood volume decreases, and orthostatic tolerance deteriorates.",
+    "relatedHazards": ["Altered Gravity Fields", "Space Radiation"],
+    "linkedIndicators": ["heart_rate", "blood_pressure_systolic", "blood_pressure_diastolic", "exercise_minutes"],
+    "statusInfo": {
+      "green": "Heart rate (60-100 bpm), blood pressure (90-120/60-80 mmHg), and exercise compliance (120-180 min/day) are all within healthy ranges. Cardiovascular system is well-maintained and adapting appropriately to the space environment.",
+      "yellow": "One or more cardiovascular indicators are in warning range — elevated heart rate (100-120 bpm), borderline blood pressure, or reduced exercise (60-120 min/day). Increased monitoring recommended. Cardiovascular deconditioning may be progressing.",
+      "red": "Critical cardiovascular readings detected — heart rate >120 or <50 bpm, blood pressure >140/90 or <80/50 mmHg, or exercise <60 min/day. Risk of arrhythmia, syncope, or accelerated cardiac atrophy. Immediate medical evaluation required."
+    },
+    "recommendations": [
+      "Complete the full 2.5-hour daily exercise protocol (ARED + CEVIS/T2)",
+      "Perform lower body negative pressure (LBNP) sessions as prescribed",
+      "Monitor resting heart rate at the same time each morning",
+      "Stay well-hydrated to maintain blood volume",
+      "Wear compression garments during re-entry preparation",
+      "Report any palpitations, chest discomfort, or dizziness immediately",
+      "Consume adequate sodium to support blood volume maintenance"
+    ]
+  },
+  {
+    "id": "lungs",
+    "name": "Lungs & Respiratory System",
+    "description": "The lungs facilitate gas exchange, absorbing oxygen from inhaled air and expelling carbon dioxide. In the closed spacecraft environment, atmospheric composition must be carefully managed. Microgravity alters ventilation-perfusion matching and mucociliary clearance.",
+    "relatedHazards": ["Closed/Hostile Living Environment"],
+    "linkedIndicators": ["spo2", "exercise_minutes"],
+    "statusInfo": {
+      "green": "Blood oxygen saturation is optimal (95-100%) and exercise capacity is maintained. Respiratory function is healthy. Cabin atmosphere CO2 levels are within acceptable limits. No respiratory symptoms reported.",
+      "yellow": "SpO2 slightly reduced (90-95%) or exercise tolerance declining. Possible causes: elevated cabin CO2, mild upper respiratory infection, or deconditioning. Check atmospheric sensors and increase monitoring frequency.",
+      "red": "SpO2 below 90% — hypoxemia detected. Risk of cognitive impairment, cardiac arrhythmia, and loss of consciousness. Check cabin atmosphere immediately. Consider supplemental oxygen. Emergency medical protocol if symptoms present."
+    },
+    "recommendations": [
+      "Monitor cabin CO2 levels and ensure scrubber systems are functioning",
+      "Report any coughing, wheezing, or shortness of breath immediately",
+      "Perform aerobic exercise to maintain lung capacity and efficiency",
+      "Use dust masks during lunar/Mars surface EVAs to prevent particle inhalation",
+      "Practice deep breathing exercises to improve ventilation",
+      "Keep crew quarters well-ventilated with adequate air circulation fans",
+      "Check SpO2 after exercise to assess recovery capacity"
+    ]
+  },
+  {
+    "id": "bones_muscles",
+    "name": "Bones & Musculoskeletal System",
+    "description": "The skeletal and muscular systems provide structural support, enable movement, protect organs, and store minerals. In microgravity, mechanical unloading causes rapid bone demineralization (1-2% per month) and muscle atrophy (up to 20% on long missions), making exercise countermeasures absolutely critical.",
+    "relatedHazards": ["Altered Gravity Fields"],
+    "linkedIndicators": ["weight", "exercise_minutes", "body_temperature"],
+    "statusInfo": {
+      "green": "Weight is stable (within 2% of baseline), exercise protocol compliance is high (120-180 min/day), and body temperature is normal. Musculoskeletal countermeasures are effective. Bone and muscle mass are being adequately maintained.",
+      "yellow": "Weight loss exceeding 2% from baseline, exercise below 120 min/day, or mild temperature elevation. Bone and muscle loss may be accelerating. Exercise protocol review and possible nutritional supplementation recommended.",
+      "red": "Significant weight loss (>5% from baseline), exercise severely reduced (<60 min/day), or fever present. Rapid musculoskeletal deconditioning likely occurring. Risk of fracture during EVA. Immediate countermeasure intensification and medical evaluation needed."
+    },
+    "recommendations": [
+      "Complete all prescribed resistance exercises on the ARED daily",
+      "Maintain high-impact loading with treadmill running (bungee-cord attached)",
+      "Ensure adequate calcium intake (1000-1200 mg/day) and vitamin D supplementation",
+      "Consume adequate protein (1.2-1.5 g/kg/day) to support muscle maintenance",
+      "Report any joint pain, muscle cramping, or back pain promptly",
+      "Perform weekly body mass measurements using SLAMMD",
+      "Consider bisphosphonate therapy if bone loss exceeds mission guidelines"
+    ]
+  },
+  {
+    "id": "immune_system",
+    "name": "Immune System",
+    "description": "The immune system defends the body against pathogens, repairs damaged tissue, and conducts surveillance for abnormal cells. Spaceflight dysregulates immune function — some responses become suppressed while latent viruses reactivate, creating a paradox of increased infection risk alongside inflammatory changes.",
+    "relatedHazards": ["Space Radiation", "Closed/Hostile Living Environment"],
+    "linkedIndicators": ["body_temperature", "sleep_hours", "blood_glucose"],
+    "statusInfo": {
+      "green": "Body temperature normal (36.1-37.2°C), sleep adequate (7-9 hours), blood glucose stable (70-100 mg/dL). Immune function is well-supported. No signs of infection or inflammatory response. Latent virus markers within baseline.",
+      "yellow": "Mild temperature elevation (37.2-38.5°C), poor sleep (4-6 hours), or glucose dysregulation (100-140 mg/dL). Immune system may be under stress. Watch for early infection signs. Increase rest and nutritional support.",
+      "red": "Fever (>38.5°C), severe sleep deprivation (<4 hours), or glucose crisis (<60 or >140 mg/dL). Active infection possible — isolate if able, begin empirical antimicrobial therapy per protocol. Crew health emergency procedures may apply."
+    },
+    "recommendations": [
+      "Prioritize 7-9 hours of quality sleep for immune recovery",
+      "Maintain good hygiene — handwashing, surface disinfection schedules",
+      "Report any rashes, sores, fever blisters, or unusual symptoms promptly",
+      "Keep vaccinations current per pre-flight medical protocol",
+      "Manage stress to prevent cortisol-mediated immune suppression",
+      "Consume foods rich in vitamins C and D to support immune function",
+      "Monitor for reactivation of latent viruses (HSV, VZV, EBV)"
+    ]
+  },
+  {
+    "id": "eyes",
+    "name": "Eyes & Vision",
+    "description": "The eyes are highly sensitive to intracranial pressure changes caused by microgravity-induced cephalad fluid shift. Spaceflight-Associated Neuro-ocular Syndrome (SANS) affects over 50% of long-duration astronauts, causing optic disc edema, globe flattening, choroidal folds, and refractive changes.",
+    "relatedHazards": ["Altered Gravity Fields"],
+    "linkedIndicators": ["blood_pressure_systolic"],
+    "statusInfo": {
+      "green": "Systolic blood pressure normal (90-120 mmHg). Intracranial pressure likely within acceptable range. No visual complaints reported. Vision screening results stable compared to baseline.",
+      "yellow": "Systolic blood pressure elevated (120-140 mmHg). Increased risk of elevated intracranial pressure and SANS progression. Schedule ophthalmologic screening. Monitor for visual symptoms — blurring, scotomas, double vision.",
+      "red": "Systolic blood pressure critically elevated (>140 mmHg). High risk of optic disc edema and vision changes. Immediate ophthalmologic evaluation via telemedicine. Consider lower body negative pressure therapy and pharmacological intervention."
+    },
+    "recommendations": [
+      "Report any vision changes (blurriness, blind spots, flashes) immediately",
+      "Complete scheduled visual acuity tests using the onboard eye chart",
+      "Perform retinal imaging with the fundoscope per medical schedule",
+      "Use lower body negative pressure device to reduce intracranial pressure",
+      "Monitor blood pressure regularly — hypertension worsens SANS",
+      "Avoid sustained Valsalva maneuvers during exercise",
+      "Keep corrective eyewear prescriptions updated and carry spares"
+    ]
+  },
+  {
+    "id": "digestive",
+    "name": "Digestive System",
+    "description": "The digestive system processes food, absorbs nutrients, maintains fluid balance, and hosts the gut microbiome. In spaceflight, altered gravity changes gut motility, the closed-environment diet is limited, and the gut microbiome shifts — potentially affecting nutrient absorption, immune function, and mood via the gut-brain axis.",
+    "relatedHazards": ["Closed/Hostile Living Environment", "Altered Gravity Fields"],
+    "linkedIndicators": ["blood_glucose", "weight", "hydration"],
+    "statusInfo": {
+      "green": "Blood glucose stable (70-100 mg/dL), weight maintained, hydration adequate (3-5). Digestive function is healthy. Appetite and food intake are sufficient. No GI complaints. Bowel function regular.",
+      "yellow": "Glucose slightly out of range (60-70 or 100-140 mg/dL), mild weight change, or hydration declining (2). Possible GI discomfort, appetite changes, or nutritional imbalance. Review dietary intake and hydration plan.",
+      "red": "Glucose critically abnormal (<60 or >140 mg/dL), significant weight loss, or severe dehydration (1). Risk of malnutrition, kidney stones, or metabolic crisis. Modify diet, increase fluid intake, and consult flight surgeon immediately."
+    },
+    "recommendations": [
+      "Maintain a regular eating schedule with balanced macronutrients",
+      "Drink at least 2-2.5 liters of water daily — set reminders",
+      "Choose high-fiber food options to support gut motility",
+      "Take prescribed probiotics to maintain gut microbiome diversity",
+      "Report nausea, constipation, diarrhea, or appetite loss promptly",
+      "Monitor urine color as a hydration indicator",
+      "Ensure adequate potassium and electrolyte intake from food sources"
+    ]
+  }
+]
